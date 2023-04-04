@@ -3,7 +3,7 @@
 	$arr2 = $_POST['arr2'];
 	$method = $_POST['method'];
 
-	if($method == "L1") {\
+	if($method == "L1") {
 		manhattan($arr1, $arr2);
 	}else if($method == "L2") {
 		euclidean($arr1, $arr2);
